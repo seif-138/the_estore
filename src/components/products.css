@@ -1,0 +1,28 @@
+.my-btn{
+   background-color: #CCA754;
+    border-color: #CC54B5;
+    font-size:20px;
+
+}
+p{
+   color:rgb(54, 52, 52);
+
+}
+.card{
+    /* background-color: #CC54B5; */
+    --bs-card-bg:null;
+    
+    height: 31em;
+}
+.card-img-top{
+    height: 20em;
+}
+.card-title{
+    height: 50px;
+    overflow: hidden;
+}
+.container-card{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
